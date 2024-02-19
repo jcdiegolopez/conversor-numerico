@@ -3,6 +3,7 @@ import SelectionBox from './components/SelectionBox';
 import C2 from './components/Programs/C2';
 import Binario from './components/Programs/Binario';
 import Hexa from './components/Programs/Hexa';
+import './app.css'
 
 
 const InitialOptions = [
@@ -32,9 +33,9 @@ function App() {
   }
 
   return (
-    <div className="flex justify-center items-center bg-slate-200 relative w-full min-h-screen overflow-hidden text-left text-[1rem] text-blanco font-kode">
-      <div className='flex flex-col items-center bg-slate-300 w-[50vw] min-h-[80vh] rounded-md p-[2rem] shadow-xl'>
-        <h1 className="font-black text-[2rem]">CALCULADORA NUMÉRICA</h1>
+    <div className="container flex justify-center items-center bg-slate-200 relative min-w-full min-h-screen overflow-hidden text-left text-[1rem] text-blanco font-kode">
+      <div className='container2 flex flex-col items-center bg-slate-300 w-[50vw] min-h-[80vh] rounded-lg p-[2rem] shadow-xl'>
+        <h1 className="font-black text-[2rem] ">CALCULADORA NUMÉRICA</h1>
         <SelectionBox options={options} handleChangeOption={handleChangeOption}/>
         <div className='p-[2rem]'>
         {options.map((option) => (option.selected && option.componenet) )}
