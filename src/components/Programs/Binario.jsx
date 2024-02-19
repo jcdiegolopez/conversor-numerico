@@ -81,7 +81,7 @@ const Binario= () => {
                 value = {values.decimal.value}
                 onClick={handleClick}
                 onChange={handleChange}
-                readOnly={!values.decimal.selected}
+                
                 
             />
             </div>
@@ -97,7 +97,7 @@ const Binario= () => {
                 value = {values.binario.value}
                 onClick={handleClick}
                 onChange={handleChange}
-                readOnly={!values.binario.selected}
+                
             />
             </div>
 

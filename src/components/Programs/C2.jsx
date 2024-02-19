@@ -94,7 +94,7 @@ const C2 = () => {
                 value = {values.binario.value}
                 onClick={handleClick}
                 onChange={handleChange}
-                readOnly={!values.binario.selected}
+                
                 
             />
             </div>
@@ -110,7 +110,6 @@ const C2 = () => {
                 value = {values.c2.value}
                 onClick={handleClick}
                 onChange={handleChange}
-                readOnly={!values.c2.selected}
             />
             </div>
 

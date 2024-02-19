@@ -106,7 +106,7 @@ const Hexa = () => {
                 value = {values.hexa.value}
                 onClick={handleClick}
                 onChange={handleChange}
-                readOnly={!values.hexa.selected}
+              
                 
             />
             </div>
@@ -122,7 +122,7 @@ const Hexa = () => {
                 value = {values.decimal.value}
                 onClick={handleClick}
                 onChange={handleChange}
-                readOnly={!values.decimal.selected}
+               
             />
             </div>
 
